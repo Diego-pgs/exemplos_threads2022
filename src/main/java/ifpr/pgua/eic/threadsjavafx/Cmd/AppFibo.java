@@ -1,19 +1,19 @@
 package ifpr.pgua.eic.threadsjavafx.Cmd;
 
 public class AppFibo {
-    /* 
-    public static long fibo(int n){
-        if(n>1){
-            return fibo(n-1)+fibo(n-2);
-        }else{
-            return 1;
-        }
-    }
+     
+    // public static long fibo(int n){
+    //     if(n>1){
+    //         return fibo(n-1)+fibo(n-2);
+    //     }else{
+    //         return 1;
+    //     }
+    // }
 
-    public static void main(String[] args) {
-        long res = fibo(50);
-        System.out.println(res);
-    }*/
+    // public static void main(String[] args) {
+    //     long res = fibo(50);
+    //     System.out.println(res);
+    // }
 
 
     public static void main(String[] args) throws Exception{
@@ -24,7 +24,7 @@ public class AppFibo {
 
         while(!f.isTerminou()){
             try{
-                System.out.print(". ");
+                System.out.print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& ");
                 Thread.sleep(1000);
             }catch(InterruptedException e){
                 System.out.println("Interrompido...");

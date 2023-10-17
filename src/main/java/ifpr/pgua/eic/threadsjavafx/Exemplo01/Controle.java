@@ -28,6 +28,8 @@ public class Controle {
     @FXML
     public void runTask()
     {
+        System.out.println(Thread.currentThread().getName());
+        
         for(int i = 1; i <= 10; i++)
         {
             try
